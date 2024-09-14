@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+ <header>
+  <h1>Countdown Timer</h1>
+ </header>
+ <main>
+    <div class="timer-section">
+        <label for="hour">Hours:</label>
+        <input class="hour-input" type="number" max="25" id="hour" min="2" placeholder="00">
+        <label for="min">Minutes:</label>
+        <input class="minute-input" type="number" max="25" id="min" min="2" placeholder="00">
+        <label for="sec">Seconds:</label>
+        <input class="second-input" type="number" max="25" min="2" id="sec" placeholder="00">
+    </div>
+    <div id="countdownDisplay">00:00:00</div>
+<div class="btn-section">
+    <button class="start">Start</button>
+<button class="stop">Stop</button>
+<button class="reset">Reset</button>
+</div>
+ </main>
+ <footer><span>Made with ❤️ by Jyoti Markun</span></footer>
+</body>
+</html>
